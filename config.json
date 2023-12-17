@@ -1,0 +1,6 @@
+{
+    "token": "Your bot TOKEN",
+    "server": "Your discord ID Server",
+    "clientId": "Your bot CLIENT ID",
+    "devs": ["Your user ID"]
+}
