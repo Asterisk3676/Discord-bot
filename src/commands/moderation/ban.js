@@ -3,13 +3,11 @@ const { ApplicationCommandOptionType, PermissionFlagsBits } = require('discord.j
 module.exports = {
     // deleted: true,
     name: 'ban',
-    description: 'แบน พวกไม่สร้างสรรค์!!!.',
-    // devOnly: Boolean,
-    // testOnly: Boolean,
+    description: 'แบนสมาชิก!!!',
     options: [
         {
             name: 'target-user',
-            description: 'แบนผู้ใช้',
+            description: 'ผู้ใช้ที่จะแบน',
             required: true,
             type: ApplicationCommandOptionType.Mentionable,
         },
